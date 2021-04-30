@@ -1,3 +1,64 @@
+/* Header style */
+
+.header__item {
+  color: #000000;
+}
+
+/* Card Component Style */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.card__title {
+  white-space: nowrap;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Button Style */
+
+.button {
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* CardContainer component Style */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Search Field component Style */
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
 .App {
   text-align: center;
 }
